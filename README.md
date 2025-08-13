@@ -29,7 +29,7 @@ ReelPlay is a mobile video player built with **React Native** and **Expo**, desi
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/ReelPlay.git
+   git clone https://github.com/Joshwebpoll/ReelPlay-video_app
    cd ReelPlay
 
    ```
