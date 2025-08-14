@@ -155,14 +155,14 @@ function VideoPlayerScreen({ video, onBack }) {
       <TouchableOpacity style={styles.backButton} onPress={onBack}>
         <Text style={styles.backText}>← Back</Text>
       </TouchableOpacity>
-      <View style={styles.videoDetails}>
+      {/* <View style={styles.videoDetails}>
         <Text style={styles.videoPlayerTitle} numberOfLines={2}>
           {video.filename || "Untitled Video"}
         </Text>
         <Text style={styles.videoPlayerDate}>
           {new Date(video.creationTime).toLocaleDateString()}
         </Text>
-      </View>
+      </View> */}
     </SafeAreaView>
   );
 }
